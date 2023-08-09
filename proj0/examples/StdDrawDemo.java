@@ -9,6 +9,8 @@
  *   http://introcs.cs.princeton.edu/java/15inout/javadoc/StdDraw.html
  */
 
+import javax.sound.midi.Soundbank;
+
 public class StdDrawDemo {
 	public static String imageToDraw = "advice.png";
 
@@ -107,8 +109,9 @@ public class StdDrawDemo {
 	public static void main(String[] args) {
 		/** Try commenting out some of these calls and
 		* notice the differences. */
-		drawThree();
+		//drawThree();
 		//drawRandom();
-		//drawZoom();
+		drawZoom();
+		System.out.println("asf");
 	}
 }
